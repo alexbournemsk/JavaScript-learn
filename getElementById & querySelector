@@ -1,0 +1,7 @@
+let parent = document.getElementById("more-destinations");
+let child = document.querySelector("#oaxaca");
+parent.removeChild(child);
+
+let paragraph = document.getElementById('oaxaca');
+let asd = document.getElementById('more-destinations');
+asd.removeChild(paragraph)
